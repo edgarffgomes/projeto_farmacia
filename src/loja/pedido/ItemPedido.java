@@ -27,7 +27,7 @@ public class ItemPedido {
 		this.qnt = qnt;
 	}
 	
-	public double getTotal() {
+	public double getPrecoTotal() {
 		return produto.getPrecoUnitario() * this.qnt;
 	}
 
