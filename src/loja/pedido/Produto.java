@@ -2,7 +2,7 @@ package loja.pedido;
 
 public class Produto {
 	private String nome;
-	private String descricao;
+	private String codBarras;
 	private String marca;
 	private double precoUnitario;
 	private int quantidadeEstoque;
@@ -26,12 +26,12 @@ public class Produto {
 	public void setNome(String n) {
 		this.nome = n;
 	}
-	public String getDescricao() {
-		return descricao;
+	public String getCodBarras() {
+		return this.CodBarras;
 	}
 
-	public void setDescricao(String d) {
-		this.descricao = d;
+	public void setCodBarrras(String cB) {
+		this.codBarras = cB;
 	}
 
 	public String getMarca() {
